@@ -1,53 +1,155 @@
 
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta http-equiv="edit-Type" edit="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>View Donated Items - JSFiddle</title>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>View Donated Items</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <meta name="robots" content="index, follow">
-      <meta name="googlebot" content="index, follow">
 
-      <script type="text/javascript">
-        var height
-        var force_height = null
-        var slug = "L7cnj63u"
-        var show_src = "//fiddle.jshell.net/praiseO/L7cnj63u/2/show/light/"
-        var resize_element_counter = 0
-        var shell_edit_url = "/praiseO/L7cnj63u/2/light/"
-      </script>
-
-      <script src="/js/embed/embed.js"></script>
-      <link rel="stylesheet" media="screen" href="/css/embed/embed-light.css" />
-      <link rel="icon" href="/img/favicon.png">
-  </head>
-  <body id="sylvester-standalone">
-    <a class="toEditor" href="//jsfiddle.net/praiseO/L7cnj63u/2/" target="_blank">
-      <svg width='34' height='40'>
-      <use xlink:href='//jsfiddle.net/sprite.svg#logo'></use>
-    </svg>Edit in JSFiddle
-    </a>
-
-    <div id="result">
-      <div id="click-to-run">
-        <div class="ctrCont">
-          <svg width='70' height='70'>
-      <use xlink:href='//jsfiddle.net/sprite.svg#embed-run'></use>
-    </svg>
-          <section>
-            <strong>Run this fiddle</strong>
-            <span>
-              Run code only from a trusted source.<br>
-              Don't fall for scams (crypto, Bitcoin, ETH, etc).
-            </span>
-          </section>
-        </div>
-      </div>
-    </div>
-
+  <script
+    type="text/javascript"
+    src="/js/lib/dummy.js"
     
-  </body>
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+    
+
+    /* EOS */
+  </style>
+
+  <script id="insert"></script>
+
+</head>
+<body>
+    
+<html>
+    <head>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+var listView = document.createElement('div');
+listView.innerHTML = '<h1>View Item</h1><p>No Items Available</p>';
+document.body.appendChild(listView);
+
+var userIcon = document.createElement('img');
+userIcon.src = 'https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png';
+userIcon.style.width = '50px';
+userIcon.style.height = '50px';
+userIcon.style.borderRadius = '50%';
+document.body.appendChild(userIcon);
+
+var userName = document.createElement('div');
+userName.innerHTML = 'Ebuka Divine Harry';
+document.body.appendChild(userName);
+
+var avatar = document.createElement('img');
+avatar.src = 'https://www.fupreonline.com/images/logo-fupre.png';
+avatar.style.width = '300px';
+avatar.style.height = '300px';
+avatar.style.borderRadius = '50%';
+avatar.style.position = 'absolute';
+avatar.style.top = '50%';
+avatar.style.left = '50%';
+avatar.style.transform = 'translate(-50%, -50%)';
+document.body.appendChild(avatar);
+
+avatar.style.opacity = '0.1';
+
+var donateButton = document.createElement('button');
+donateButton.innerHTML = 'search';
+donateButton.style.position = 'relative';
+donateButton.style.top = '50';
+donateButton.style.right = '10';
+document.body.appendChild(donateButton);
+
+donateButton.style.borderStyle = 'double';
+
+donateButton.style.borderRadius = '15px';
+
+document.body.style.backgroundColor = '#f0f0f0';
+document.body.style.fontFamily = 'sans-serif';
+document.body.style.textAlign = 'center';
+
+document.body.style.fontFamily = 'Helvetica';
+
+var userBox = document.createElement('div');
+userBox.style.border = 'double';
+userBox.style.width = '1550px';
+userBox.style.height = '100px';
+userBox.style.position = 'absolute';
+userBox.style.right = '170';
+userBox.style.alignItems = 'center';
+userBox.style.justifyContent = 'center';
+userBox.appendChild(userIcon);
+userBox.appendChild(userName);
+document.body.appendChild(userBox);
+
+userBox.style.backgroundColor = 'white';
+
+var line = document.createElement('hr');
+line.style.width = '100%';
+line.style.border = '1px solid black';
+userBox.appendChild(line);
+
+var line1 = document.createElement('hr');
+line1.style.width = '100%';
+line1.style.border = '1px solid black';
+line1.style.marginTop = '5cm';
+document.body.appendChild(line1);
+var line2 = document.createElement('hr');
+line2.style.width = '100%';
+line2.style.border = '1px solid black';
+line2.style.marginTop = '5cm';
+document.body.appendChild(line2);
+var line3 = document.createElement('hr');
+line3.style.width = '100%';
+line3.style.border = '1px solid black';
+line3.style.marginTop = '5cm';
+document.body.appendChild(line3);
+
+document.body.style.background = 'linear-gradient(to right, #fff4e9, #ffd8cd)';
+});
+        </script>
+    </head>
+    <body style="margin: 0;">
+        <div style="background-color: black; position: fixed; bottom: 0; width: 100%; height: 20px; padding: 20px; opacity: .85; z-index: 1000;">
+            <svg id="Layer_1" data-name="Layer 1" height="40px" width="40px" style="top: -8px;
+            position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800"><defs><style>.cls-1{fill:#fff;}</style></defs><title>openai-symbol-flat-white</title><path class="cls-1" d="M617.24,354a126.36,126.36,0,0,0-10.86-103.79,127.8,127.8,0,0,0-137.65-61.32,126.36,126.36,0,0,0-95.31-42.49A127.81,127.81,0,0,0,251.5,234.89,126.4,126.4,0,0,0,167,296.19a127.82,127.82,0,0,0,15.72,149.86,126.36,126.36,0,0,0,10.86,103.79,127.81,127.81,0,0,0,137.65,61.32,126.36,126.36,0,0,0,95.31,42.49A127.81,127.81,0,0,0,548.5,565.11,126.4,126.4,0,0,0,633,503.81,127.82,127.82,0,0,0,617.24,354ZM426.58,620.49a94.79,94.79,0,0,1-60.85-22c.77-.42,2.12-1.16,3-1.7l101-58.34a16.42,16.42,0,0,0,8.3-14.37V381.69l42.69,24.65a1.52,1.52,0,0,1,.83,1.17V525.43A95.18,95.18,0,0,1,426.58,620.49ZM222.34,533.26A94.74,94.74,0,0,1,211,469.56c.75.45,2.06,1.25,3,1.79l101,58.34a16.44,16.44,0,0,0,16.59,0l123.31-71.2v49.3a1.53,1.53,0,0,1-.61,1.31L352.19,568.05A95.16,95.16,0,0,1,222.34,533.26ZM195.77,312.77a94.71,94.71,0,0,1,49.48-41.68c0,.87-.05,2.41-.05,3.48V391.25a16.41,16.41,0,0,0,8.29,14.36L376.8,476.8l-42.69,24.65a1.53,1.53,0,0,1-1.44.13l-102.11-59A95.16,95.16,0,0,1,195.77,312.77Zm350.74,81.62L423.2,323.19l42.69-24.64a1.53,1.53,0,0,1,1.44-.13l102.11,58.95a95.08,95.08,0,0,1-14.69,171.55c0-.88,0-2.42,0-3.49V408.75A16.4,16.4,0,0,0,546.51,394.39ZM589,330.44c-.75-.46-2.06-1.25-3-1.79L485,270.31a16.46,16.46,0,0,0-16.59,0l-123.31,71.2v-49.3a1.53,1.53,0,0,1,.61-1.31L447.81,232A95.07,95.07,0,0,1,589,330.44ZM321.89,418.31l-42.7-24.65a1.52,1.52,0,0,1-.83-1.17V274.57a95.07,95.07,0,0,1,155.9-73c-.77.42-2.11,1.16-3,1.7l-101,58.34a16.41,16.41,0,0,0-8.3,14.36Zm23.19-50L400,336.59l54.92,31.7v63.42L400,463.41l-54.92-31.7Z"/></svg>
+            <div style="display: inline-block; color: white; vertical-align: top; margin-top: 4px; font-family: Helvetica, sans-serif;">
+            </div>
+        </div>
+    </body>
+</html>
+
+    <script type="text/javascript">//<![CDATA[
+
+
+
+
+
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "af8ewg9q"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body>
 </html>
